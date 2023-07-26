@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link rel="stylesheet" href="./assets/styles/dashboard.css" />
+  </head>
+  <body style="background: #fafafa">
+    <div class="flex-container">
+      <aside class="nav-bar">
+        <header>
+          <img src="./assets/media/kv logo.png" alt="KeyValue logo" />
+        </header>
+        <nav>
+          <a href="/employee-list">
+            <div class="circle">
+              <img src="/assets/media/icon.svg" alt="Employee list icon" />
+            </div>
+            <h4>Employee List</h4>
+          </a>
+        </nav>
+      </aside>
+      <main class="main-conatiner">
+        <div class="header-space"></div>
+        <div class="card">
+          <h2>Create Employee</h2>
+        </div>
+        <div class="card">
+          <form action="" >
+            <div class="form-row">
+                <div class="form-col">
+                    <div class="form-input">
+                      <label for="employeeName">Employee Name</label>
+                      <input
+                        type="text"
+                        id="employeeName"
+                        name="employeeName"
+                        placeholder="Employee Name"
+                      />
+                    </div>
+                    <div class="form-input">
+                      <label>Role</label>
+                      <select>
+                        <option value="">Please Role</option>
+                        <option value="0">Role 1</option>
+                        <option value="1">Role 2</option>
+                      </select>
+                    </div>
+                    <div class="form-input">
+                      <label for="address">Address</label>
+                      <input
+                        type="text"
+                        id="address"
+                        name="address"
+                        placeholder="Address"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-col">
+                    <div class="form-input">
+                      <label for="employeeName">Employee ID</label>
+                      <input
+                        type="text"
+                        id="employeeID"
+                        name="employeeID"
+                        placeholder="Employee ID"
+                      />
+                    </div>
+                    <div class="form-input">
+                      <label>Status</label>
+                      <select>
+                        <option value="">Please Status</option>
+                        <option value="0">Status 1</option>
+                        <option value="1">Status 2</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-col">
+                    <div class="form-input">
+                      <label for="employeeName">Joining Date</label>
+                      <input
+                        type="text"
+                        id="employeeDate"
+                        name="employeeDate"
+                        placeholder="Joining Date"
+                      />
+                    </div>
+      
+                    <div class="form-input">
+                      <label for="experience">Experience</label>
+                      <input
+                        type="text"
+                        id="experience"
+                        name="experience"
+                        placeholder="Experience"
+                      />
+                    </div>
+                  </div>
+            </div>
+            <div class="form-btn">
+              <input class="btn primary-btn" type="submit" value="Create">
+              <input class="btn secondary-btn" type="reset" value="Cancel">
+          </div>
+          </form>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
